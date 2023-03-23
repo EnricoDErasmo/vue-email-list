@@ -15,9 +15,9 @@
 
     <div id="app">
 
-        <ul>
+        <ul v-show="visibility">
             <!-- Creo un ciclo con vue che stampi in pagina la lista di email -->
-            <li v-for="email in emailList"> {{email}}</li>
+            <li v-for="email in emailList">{{email}}</li>
         </ul>
 
     </div>
